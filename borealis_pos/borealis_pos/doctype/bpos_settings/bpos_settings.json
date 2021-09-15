@@ -1,27 +1,32 @@
 {
  "actions": [],
- "autoname": "field:tname",
- "creation": "2021-06-05 18:56:34.538697",
+ "autoname": "format:{code}",
+ "creation": "2021-06-01 12:43:21.878333",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "tname"
+  "code",
+  "setting"
  ],
  "fields": [
   {
-   "fieldname": "tname",
+   "fieldname": "code",
    "fieldtype": "Data",
-   "label": "Name",
-   "unique": 1
+   "label": "Code"
+  },
+  {
+   "fieldname": "setting",
+   "fieldtype": "Data",
+   "label": "Setting"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-15 18:06:47.380787",
+ "modified": "2021-09-15 18:06:48.823225",
  "modified_by": "Administrator",
  "module": "Borealis POS",
- "name": "BPOS Tables",
+ "name": "BPOS Settings",
  "owner": "Administrator",
  "permissions": [
   {

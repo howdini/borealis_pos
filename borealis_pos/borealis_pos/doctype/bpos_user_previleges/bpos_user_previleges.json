@@ -1,0 +1,146 @@
+{
+ "actions": [],
+ "autoname": "field:sys_id",
+ "creation": "2021-06-02 11:11:58.232399",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "sys_id",
+  "prev_group",
+  "prev_desc",
+  "admin",
+  "manager",
+  "supervisor",
+  "cashier",
+  "user",
+  "user2",
+  "user3",
+  "user4",
+  "user5",
+  "user6",
+  "user7",
+  "user8",
+  "user9",
+  "user10"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id"
+  },
+  {
+   "fieldname": "sys_id",
+   "fieldtype": "Data",
+   "label": "Privilege",
+   "unique": 1
+  },
+  {
+   "fieldname": "prev_group",
+   "fieldtype": "Select",
+   "label": "Privilege Group",
+   "options": "admin\nmanager\nsupervisor\ncashier\nuser\nuser2\nuser3\nuser4\nuser5\nuser6\nuser7\nuser8\nuser9\nuser10"
+  },
+  {
+   "fieldname": "prev_desc",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "admin",
+   "fieldtype": "Int",
+   "label": "Admin"
+  },
+  {
+   "fieldname": "manager",
+   "fieldtype": "Int",
+   "label": "Manager"
+  },
+  {
+   "fieldname": "supervisor",
+   "fieldtype": "Int",
+   "label": "Supervisor"
+  },
+  {
+   "fieldname": "cashier",
+   "fieldtype": "Int",
+   "label": "Cashier"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Int",
+   "label": "User"
+  },
+  {
+   "fieldname": "user2",
+   "fieldtype": "Int",
+   "label": "User 2"
+  },
+  {
+   "fieldname": "user3",
+   "fieldtype": "Int",
+   "label": "User 3"
+  },
+  {
+   "fieldname": "user4",
+   "fieldtype": "Int",
+   "label": "User 4"
+  },
+  {
+   "fieldname": "user5",
+   "fieldtype": "Int",
+   "label": "User 5"
+  },
+  {
+   "fieldname": "user6",
+   "fieldtype": "Int",
+   "label": "User 6"
+  },
+  {
+   "fieldname": "user7",
+   "fieldtype": "Int",
+   "label": "User 7"
+  },
+  {
+   "fieldname": "user8",
+   "fieldtype": "Int",
+   "label": "User 8"
+  },
+  {
+   "fieldname": "user9",
+   "fieldtype": "Int",
+   "label": "User 9"
+  },
+  {
+   "fieldname": "user10",
+   "fieldtype": "Int",
+   "label": "User 10"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-15 18:06:48.495215",
+ "modified_by": "Administrator",
+ "module": "Borealis POS",
+ "name": "BPOS user_previleges",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

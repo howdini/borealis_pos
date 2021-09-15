@@ -1,27 +1,27 @@
 {
  "actions": [],
- "autoname": "field:tname",
- "creation": "2021-06-05 18:56:34.538697",
+ "autoname": "0.###",
+ "creation": "2021-06-03 08:37:01.315394",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "tname"
+  "pos_id"
  ],
  "fields": [
   {
-   "fieldname": "tname",
-   "fieldtype": "Data",
-   "label": "Name",
-   "unique": 1
+   "fieldname": "pos_id",
+   "fieldtype": "Link",
+   "label": "POS Workstation",
+   "options": "BPOS Workstations"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-15 18:06:47.380787",
+ "modified": "2021-09-15 18:06:46.960127",
  "modified_by": "Administrator",
  "module": "Borealis POS",
- "name": "BPOS Tables",
+ "name": "BPOS Tills",
  "owner": "Administrator",
  "permissions": [
   {

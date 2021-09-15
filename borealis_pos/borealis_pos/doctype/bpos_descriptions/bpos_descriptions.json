@@ -1,27 +1,27 @@
 {
  "actions": [],
- "autoname": "field:tname",
- "creation": "2021-06-05 18:56:34.538697",
+ "autoname": "field:description",
+ "creation": "2021-06-03 17:32:21.691430",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "tname"
+  "description"
  ],
  "fields": [
   {
-   "fieldname": "tname",
+   "fieldname": "description",
    "fieldtype": "Data",
-   "label": "Name",
+   "label": "Description",
    "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-15 18:06:47.380787",
+ "modified": "2021-09-15 18:06:48.061365",
  "modified_by": "Administrator",
  "module": "Borealis POS",
- "name": "BPOS Tables",
+ "name": "BPOS Descriptions",
  "owner": "Administrator",
  "permissions": [
   {

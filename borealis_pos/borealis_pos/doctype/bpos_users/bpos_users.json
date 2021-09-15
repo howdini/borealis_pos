@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "autoname": "field:username",
+ "creation": "2021-06-02 10:18:07.113277",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "firstname",
+  "lastname",
+  "username",
+  "password",
+  "user_types_id",
+  "pin"
+ ],
+ "fields": [
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "Username",
+   "unique": 1
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "Password"
+  },
+  {
+   "fieldname": "user_types_id",
+   "fieldtype": "Select",
+   "label": "User Type",
+   "options": "admin\ncashier\nmanager\nsupervisor\nuser\nuser2\nuser3\nuser4\nuser5\nuser6\nuser7\nuser8\nuser9\nuser10"
+  },
+  {
+   "fieldname": "pin",
+   "fieldtype": "Int",
+   "label": "PIN"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-15 18:06:48.698285",
+ "modified_by": "Administrator",
+ "module": "Borealis POS",
+ "name": "BPOS Users",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
