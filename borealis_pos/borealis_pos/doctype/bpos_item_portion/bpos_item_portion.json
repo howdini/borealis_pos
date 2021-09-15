@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "autoname": "field:item",
+ "creation": "2021-06-03 19:15:49.811419",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "portions"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Item",
+   "unique": 1
+  },
+  {
+   "fieldname": "portions",
+   "fieldtype": "Table",
+   "label": "Portions",
+   "options": "BPOS Item Portion Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-06-03 22:27:17.357369",
+ "modified_by": "Administrator",
+ "module": "Borealis POS",
+ "name": "BPOS Item Portion",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

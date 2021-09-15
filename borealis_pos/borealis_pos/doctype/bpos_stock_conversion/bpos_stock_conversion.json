@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "autoname": "field:item_name",
+ "creation": "2021-07-16 15:06:55.945664",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_name",
+  "transformable",
+  "transform_to",
+  "transform_qty"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Item",
+   "unique": 1
+  },
+  {
+   "fieldname": "transformable",
+   "fieldtype": "Int",
+   "label": "Transformable"
+  },
+  {
+   "fieldname": "transform_to",
+   "fieldtype": "Link",
+   "label": "Transform To",
+   "options": "Item"
+  },
+  {
+   "fieldname": "transform_qty",
+   "fieldtype": "Float",
+   "label": "Quantity"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-16 15:06:55.945664",
+ "modified_by": "Administrator",
+ "module": "Borealis POS",
+ "name": "BPOS Stock Conversion",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

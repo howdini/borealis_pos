@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include borealis_pos *.css
+recursive-include borealis_pos *.csv
+recursive-include borealis_pos *.html
+recursive-include borealis_pos *.ico
+recursive-include borealis_pos *.js
+recursive-include borealis_pos *.json
+recursive-include borealis_pos *.md
+recursive-include borealis_pos *.png
+recursive-include borealis_pos *.py
+recursive-include borealis_pos *.svg
+recursive-include borealis_pos *.txt
+recursive-exclude borealis_pos *.pyc
