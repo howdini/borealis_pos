@@ -11,7 +11,8 @@
   "username",
   "password",
   "user_types_id",
-  "pin"
+  "pin",
+  "user_access_id"
  ],
  "fields": [
   {
@@ -45,11 +46,16 @@
    "fieldname": "pin",
    "fieldtype": "Int",
    "label": "PIN"
+  },
+  {
+   "fieldname": "user_access_id",
+   "fieldtype": "Data",
+   "label": "User Access Id"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-15 18:06:48.698285",
+ "modified": "2021-09-20 20:44:31.993880",
  "modified_by": "Administrator",
  "module": "Borealis POS",
  "name": "BPOS Users",
